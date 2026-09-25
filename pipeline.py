@@ -89,6 +89,5 @@ def main():
     if not validate_input(args.input):
         sys.exit(1)
 
-
 if __name__ == "__main__":
     main()
