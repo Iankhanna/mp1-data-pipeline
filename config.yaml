@@ -1,10 +1,8 @@
 processing:
   remove_duplicates: true
-
   missing:
     enabled: true
     axis: "rows"
-
   outliers:
     enabled: true
     columns:
