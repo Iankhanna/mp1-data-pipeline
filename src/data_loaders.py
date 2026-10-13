@@ -32,7 +32,7 @@ def load_yaml(filepath):
 
 def load_data(filepath):
     path = Path(filepath)
-    ext = path.suffix
+    ext = path.suffix.lower()
     if ext == ".csv":
         return load_csv(path)
     elif ext == ".json":
