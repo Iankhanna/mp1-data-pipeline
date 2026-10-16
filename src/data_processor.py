@@ -1,6 +1,6 @@
 import logging
 import pandas as pd
-
+#Removes duplicates, missing values, and outliers.
 logger = logging.getLogger(__name__)
 
 def remove_duplicates(df):

@@ -18,4 +18,4 @@ processing:
     columns:
       - rating
     method: "iqr"
-    threshold: 1.5
+    threshold: 1

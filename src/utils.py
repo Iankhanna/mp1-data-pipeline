@@ -1,6 +1,6 @@
 import logging
 from pathlib import Path
-
+#Handles logging and input file checks
 logger = logging.getLogger(__name__)
 
 def setup_logging(verbose=False):

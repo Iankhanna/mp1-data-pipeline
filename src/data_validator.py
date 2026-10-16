@@ -1,6 +1,6 @@
 import logging
 import pandas as pd
-
+#Checks required columns and invalid numeric values.
 logger = logging.getLogger(__name__)
 
 
